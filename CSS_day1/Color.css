@@ -1,0 +1,23 @@
+button{
+    background-color: black;
+    color: white;
+}
+
+.mianhead {
+    font-size: 60px;
+}
+
+button:hover{
+    color: yellow;
+    background-color: rgb(209, 103, 103);
+}
+
+#paratwo{
+    background-color: rgb(224, 75, 75);
+    text-transform: capitalize;
+}
+
+p.mypara:hover{
+    background-color: black;
+    color: red;
+}
