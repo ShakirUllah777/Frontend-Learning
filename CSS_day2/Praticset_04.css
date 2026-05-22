@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(20, 17, 17);
+}
+
+#navbar {
+    height: 60px;
+    background-color: rgb(39, 32, 32);
+}
+
+button {
+    background-color: rgb(194, 110, 110);
+}
+
+.logo {
+    color: tomato;
+    font-size: 25px;
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+.herso-section{
+    background-color: yellow;
+    height: 100px;
+    width:100px;
+    border: 2px solid black;
+    margin: 24px;
+    padding: 25px;
+}
+
+#box1 {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#box2 {
+    background-color: rgba(255, 0, 0, 0.75);
+}
+
+#box3 {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.footer{
+    background-color: rgb(185, 120, 120);
+    color: white;
+    display: flex;
+    justify-content: center;
+}

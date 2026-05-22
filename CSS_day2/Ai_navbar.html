@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Navbar</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar{
+      background-color:#241919;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:15px 30px;
+    }
+
+    .logo{
+      color:orange;
+      font-size:40px;
+      font-weight:bold;
+    }
+
+    .nav-links{
+      display:flex;
+      gap:120px;
+    }
+
+    .nav-links a{
+      color:white;
+      text-decoration:none;
+      font-size:22px;
+      font-weight:bold;
+    }
+
+    .search-box{
+      display:flex;
+      align-items:center;
+    }
+
+    .search-box input{
+      padding:6px;
+      width:180px;
+      border:none;
+      outline:none;
+    }
+
+    .search-box button{
+      padding:6px 10px;
+      background-color:#ff6600;
+      color:white;
+      border:none;
+      cursor:pointer;
+    }
+
+    .search-box button:hover{
+      background-color:#e65c00;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+
+    <div class="logo">Amazon</div>
+
+    <div class="nav-links">
+      <a href="#">About Me</a>
+      <a href="#">Content Us</a>
+      <a href="#">Home</a>
+    </div>
+
+    <div class="search-box">
+      <input type="text" placeholder="Search..">
+      <button>submit</button>
+    </div>
+
+  </nav>
+
+</body>
+</html>
