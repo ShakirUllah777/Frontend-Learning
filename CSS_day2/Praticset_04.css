@@ -18,12 +18,13 @@ button {
     font-size: 25px;
 }
 
+
 a {
     margin-right: 200px;
     text-decoration: none;
 }
 
-.herso-section{
+.hero-section{
     background-color: yellow;
     height: 100px;
     width:100px;
