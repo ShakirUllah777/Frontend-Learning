@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+
+    <style>
+        #container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            margin:25px; ;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 2px solid black;
+            transition-property: all;
+            transition-duration: 2s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name: coloranimation;
+            animation-duration: 3s;
+            animation-delay: 1s;
+            animation-iteration-count: 3;
+        }
+
+        .box:hover {
+            background-color: red;
+            font-size: 20px;
+        }
+
+        @keyframes coloranimation {
+            from {background-color: aqua;}
+            to {background-color: red;}
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div class="box" id='box1'>
+            box1
+        </div>
+
+        <div class="box" id='box2'>
+            box2
+        </div>
+
+        <div class="box" id='box3'>
+            box3
+        </div>
+
+    </div>
+
+</body>
+
+</html>
