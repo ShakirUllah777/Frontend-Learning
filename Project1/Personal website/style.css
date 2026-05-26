@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,13 +6,13 @@
   color: white;
 }
 
-body{
+body {
   background: black;
 }
 
 /* Navbar */
 
-nav{
+nav {
   width: 100%;
   background: #111827;
   display: flex;
@@ -27,30 +27,30 @@ nav{
   z-index: 1000;
 }
 
-.logo{
+.logo {
   font-size: 28px;
   font-weight: bold;
 }
 
-.nav-links{
+.nav-links {
   display: flex;
   list-style: none;
   gap: 30px;
 }
 
-.nav-links li a{
+.nav-links li a {
   text-decoration: none;
   font-size: 18px;
   transition: 0.3s;
 }
 
-.nav-links li a:hover{
+.nav-links li a:hover {
   color: #38bdf8;
 }
 
 /* Hero Section */
 
-.hero-section{
+.hero-section {
   width: 100%;
   min-height: 100vh;
 
@@ -64,24 +64,24 @@ nav{
 
 /* Left Side */
 
-.left{
+.left {
   width: 50%;
 }
 
-.left p{
+.left p {
   font-size: 25px;
 }
 
-.left h1{
+.left h1 {
   font-size: 70px;
   margin: 10px 0;
 }
 
-.left h2{
+.left h2 {
   font-size: 35px;
 }
 
-.left button{
+.left button {
   margin-top: 25px;
   padding: 12px 28px;
   border: none;
@@ -91,21 +91,86 @@ nav{
   cursor: pointer;
 }
 
-.left button:hover{
+.left button:hover {
   background: red;
 }
 
 /* Right Side */
 
-.right{
+.right {
   width: 50%;
   display: flex;
   justify-content: center;
 }
 
-.right img{
+.right img {
   width: 380px;
   border-radius: 50%;
   border: 3px solid white;
   box-shadow: 0 0 40px crimson;
+}
+
+/* About senction */
+.about-me {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+/* Left side */
+.about-left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-left img {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+/* about section right side  */
+.about-right {
+  width: 50%;
+  color: black;
+}
+
+.Ar-h {
+  font-size: 50px;
+  color: rgb(53, 47, 47);
+}
+
+.Ar-h2 {
+  font-size: 25px;
+  color: rgb(255, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.about-right p {
+  color: black;
+  margin-top: 5px;
+}
+
+/* about icios section  */
+
+.about-icions {
+  margin-top: 20px;
+}
+
+.about-icions a{
+  margin-right: 30px;
+}
+
+.about-icions i {
+  font-size: 25px;
+  color: black;
+}
+
+.about-icions a:hover {
+  cursor: pointer;
 }
