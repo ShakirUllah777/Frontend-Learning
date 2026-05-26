@@ -46,6 +46,7 @@ nav {
 
 .nav-links li a:hover {
   color: #38bdf8;
+  border-bottom: 1px solid  #38bdf8;
 }
 
 /* Hero Section */
@@ -171,6 +172,6 @@ nav {
   color: black;
 }
 
-.about-icions a:hover {
+.about-icions i:hover {
   cursor: pointer;
 }
