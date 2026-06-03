@@ -21,3 +21,12 @@ for (div of divs){
     div.innerText = `New unique value ${index}`;
     index++;
 }
+
+
+// create button using js and add in html 
+let newbtn = document.createElement("Button");
+newbtn.innerText = 'Click me!';
+newbtn.style.color = "red";
+newbtn.style.background = "yellow";
+
+document.querySelector("p").prepend(newbtn)
