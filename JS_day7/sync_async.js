@@ -26,3 +26,24 @@ async function getdata() {
 }
 
 getdata();
+
+
+// post request in the call back with the awiat 
+const myHeader = new Headers();
+myHeader.append('Content-Type', 'application/json');
+
+const url = "https://jsonplaceholder.typicode.com/posts";
+
+const options = {
+    method: 'POST',
+    headers: myHeader,
+    body: JSON.stringify({username: 'John Doe' }),
+}
+
+async function getdata_post() {
+    const response = await fetch(url, options);
+    const data = await response.json();
+    console.log(data);
+}
+
+getdata_post();
